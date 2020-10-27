@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Local Business Tracker</title>
+    <meta name="description" content="Sundaes on Sundays">
+    <meta name="author" content="Hogwarts Hackers">
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <ul class="nav">
+    <li><a class="active" href="#home"><img src="images/lbtLogo.png" width="100" height="100"></a></li>
+    <li><a href="#covid">COVID-19</a></li>
+    <li><a href="#categories">Categories</a></li>
+    <li><a href="#search">Search</a></li>
+    <li><a href="#profile">Sign Up / Login</a></li>
+  </ul>
+<body>
+    <!-- TODO Functionality and css changes bc life -->
+    <div style="float: left; overflow: hidden; padding: 50px;">
+        <div>
+            <button onclick="search()">Return to Search</button><br><br>
+            <img src="images/mikeslogo.png" height="225"><br>
+            <p>Current Rating:</p>
+            <img src="images/star4.png" width="300">
+        </div>
+        <div>
+            <textarea rows="5" cols="50">Type Your Review Here, then click on the stars to rate the shop!</textarea><br>
+            <div class="rate">
+                <input type="radio" id="star5" name="rate" value="5" />
+                <label for="star5" title="text">5 stars</label>
+                <input type="radio" id="star4" name="rate" value="4" />
+                <label for="star4" title="text">4 stars</label>
+                <input type="radio" id="star3" name="rate" value="3" />
+                <label for="star3" title="text">3 stars</label>
+                <input type="radio" id="star2" name="rate" value="2" />
+                <label for="star2" title="text">2 stars</label>
+                <input type="radio" id="star1" name="rate" value="1" />
+                <label for="star1" title="text">1 star</label>
+            </div><br>
+            <button>Submit Review</button>
+
+        </div>
+    </div>
+    
+    <div style="float: right; overflow: hidden; padding: 50px;">
+        <div><br><br>
+            <h1>
+                Mike’s Pops and Sundaes
+            </h1><br>
+            <h4>
+                535 Monday Street, Rochester NY 14623
+            </h4><br>
+            <p>
+                Open Weekdays and Weekends: 11am-11pm
+            </p>
+            <p>
+                Find us on Facebook! (585) 987-1238
+            </p><br>
+            <h2>
+                COVID-19 Regulations:
+            </h2>
+            <p>
+                Follow NY State social distancing guidelines 
+            </p>
+            <p>
+                Wear your masks in the shop! 
+            </p>
+            <p>
+                Max Capacity: 20
+            </p>
+            <p>
+                DoorDash is available!
+            </p>
+        </div>
+        <div><br>
+            <h1>
+                Reviews:
+            </h1> 
+            <img src="images/user123.png" height="75">
+            <img src="images/mikesreview.png" height="75">
+        </div>
+    </div>
+    
+    
+
+</body>

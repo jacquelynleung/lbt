@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="index.css">
   </head>
   <ul class="nav">
-    <li><a class="active" href="#home"><img src="lbtLogo.png" width="100" height="100"></a></li>
+    <li><a class="active" href="#home"><img src="images/lbtLogo.png" width="100" height="100"></a></li>
     <li><a href="#covid">COVID-19</a></li>
     <li><a href="#categories">Categories</a></li>
     <li><a href="#search">Search</a></li>
@@ -17,4 +17,17 @@
   </ul>
 <body>
     <!-- Create basic sign up page that will route to the confirmation page -->
+    <!-- TODO Functionality -->
+    <main id="main-holder">
+      <h1 id="signUp-header">Sign Up</h1>
+      <button onclick="signup()">Have an account? Click here to Login</button><br><br>
+      <form id="signup-form">
+        <input type="text" name="firstname" id="firstname-field" class="signup-form-field" placeholder="First Name">
+        <input type="text" name="lastname" id="lastname-field" class="signup-form-field" placeholder="Last Name"><br><br>
+        <input type="text" name="email" id="email-field" class="signup-form-field" placeholder="Email"><br><br>
+        <input type="password" name="password" id="password-field" class="signup-form-field" placeholder="Password">
+        <input type="password" name="cPassword" id="cPassword-field" class="signup-form-field" placeholder="Confirm Password"><br><br>
+        <input type="submit" value="Sign up" id="signup-form-submit">
+      </form>
+    </main>
 </body>
