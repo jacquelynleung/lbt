@@ -5,7 +5,14 @@
     <title>Local Business Tracker</title>
     <meta name="description" content="Profile">
     <meta name="author" content="Hogwarts Hackers">
-    <script type="text/javascript" src="index.js"></script>
+    <script> function follow() {
+        x = document.getElementById("follow")
+        if(x.innerText == "Follow"){
+            x.innerText = "Following";
+        } else if (x.innerText == "Following"){
+            x.innerText = "Follow";
+        }
+      }</script>
     <link rel="stylesheet" href="index.css">
   </head>
   <ul class="nav">
@@ -22,7 +29,7 @@
     <div style="float: left; padding: 50px;">
         <h1>User123</h1>
         <img src="images/user123.png" height="200"><br>
-        <button>Follow</button><br><br>
+        <button id="follow" onclick="follow()">Follow</button><br><br>
         <div style="background-color: lightgray;">
             <h4>User Info:</h4>
             <p>Total Reviews: 4</p><br>
