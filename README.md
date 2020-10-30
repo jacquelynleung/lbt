@@ -1,5 +1,6 @@
 # lbt
 To access homepage: https://jacquelynleung.github.io/lbt/
+Team Status Report: https://docs.google.com/document/d/1f9iIOaUCUoaaGe2l5fE8Ka1WgHihjQRaT_qy1j0Hp08/edit?usp=sharing
 
 Hogwarts Hackers: Emily Crilley Jacquelyn Leung Kobe Oley Zuri Shaw
 
