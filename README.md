@@ -1,6 +1,8 @@
 # lbt
 To access homepage: https://jacquelynleung.github.io/lbt/
 
+Team Status report: https://docs.google.com/document/d/1f9iIOaUCUoaaGe2l5fE8Ka1WgHihjQRaT_qy1j0Hp08/edit?usp=sharing
+
 Hogwarts Hackers: Emily Crilley Jacquelyn Leung Kobe Oley Zuri Shaw
 
 Local Business tracker showcases businesses that are in the user's current area. The application will highlight people of color owned businesses and businesses that were hurt during Covid-19, using categories such as grocery, entertainment, clothing, and services. 
